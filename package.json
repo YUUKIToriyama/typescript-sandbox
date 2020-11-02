@@ -1,0 +1,27 @@
+{
+	"name": "typescript-sandbox",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "webpack --mode=development",
+		"start": "webpack-dev-server --mode=development"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/YUUKIToriyama/typescript-sandbox.git"
+	},
+	"author": "YUUKIToriyama",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/YUUKIToriyama/typescript-sandbox/issues"
+	},
+	"homepage": "https://github.com/YUUKIToriyama/typescript-sandbox#readme",
+	"devDependencies": {
+		"ts-loader": "^8.0.7",
+		"typescript": "^4.0.5",
+		"webpack": "^5.3.2",
+		"webpack-cli": "^4.1.0",
+		"webpack-dev-server": "^3.11.0"
+	}
+}
